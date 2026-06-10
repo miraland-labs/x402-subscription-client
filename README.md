@@ -6,7 +6,7 @@ Generic buyer SDK for sellers using the **x402 `exact` subscription** pattern:
 2. Receive JWT → use `Authorization: Bearer` on data routes  
 3. Auto-renew on `TOKEN_EXPIRED`
 
-Works with [x402-subscription-starter](../x402-subscription-starter/) and any compatible seller (e.g. [fifa.polystrike.io](https://fifa.polystrike.io/devnet)).
+Works with [x402-subscription-starter](https://github.com/miraland-labs/x402-subscription-starter) and any compatible seller (e.g. `https://fifa.polystrike.io/devnet` — API only, no web UI).
 
 ## Install
 
@@ -71,5 +71,5 @@ try {
 
 ## Docs
 
-- [SUBSCRIPTION_PATTERN.md](../SUBSCRIPTION_PATTERN.md)
-- [x402-subscription-starter](../x402-subscription-starter/) — seller reference
+- [SUBSCRIPTION_PATTERN.md](https://github.com/miraland-labs/x402/blob/master/SUBSCRIPTION_PATTERN.md) (x402 hub)
+- [x402-subscription-starter](https://github.com/miraland-labs/x402-subscription-starter) — seller reference
