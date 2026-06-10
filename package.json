@@ -1,0 +1,29 @@
+{
+  "name": "x402-subscription-client",
+  "version": "0.1.0",
+  "description": "Buyer SDK for x402 exact-rail subscription APIs — pay once, JWT, auto-renew",
+  "type": "module",
+  "main": "dist/client.js",
+  "types": "dist/client.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/client.d.ts",
+      "import": "./dist/client.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo": "tsx src/demo.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
